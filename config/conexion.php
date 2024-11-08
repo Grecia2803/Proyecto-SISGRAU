@@ -14,7 +14,7 @@
         }
 
         public static function ruta(){
-            return "http://localhost:90/PERSONAL_CompraVenta/";
+            return "http://localhost:90/Proyectos/Proyecto-SISGRAU-AndreTorres";
         }
     }
 ?>
