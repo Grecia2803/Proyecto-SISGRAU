@@ -5,7 +5,7 @@
 
         protected function Conexion(){
             try{
-                $conectar = $this->dbh=new PDO("sqlsrv:Server=GRECIA\SQLEXPRESS;Database=CompraVenta","sa","280395mel");
+                $conectar = $this->dbh=new PDO("sqlsrv:Server=LAPTOP-3GO9MJOH;Database=CompraVenta", "sa", "123");
                 return $conectar;
             }catch (Exception $e){
                 print "Error Conexion BD". $e->getMessage() ."<br/>";
